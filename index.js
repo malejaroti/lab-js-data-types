@@ -49,10 +49,7 @@ console.log(tipAmount)
 *******************************************/
 
 // Generate a random integer between 1 and 10 (inclusive)
-let randomNum = Math.floor(Math.random() * 11);
-if(randomNum < 1){
-    randomNum = 1
-}
+let randomNum = Math.floor(Math.random() * 10) + 1; //! this would have been the best solution
 
 // Print the generated random number
 console.log(randomNum)
