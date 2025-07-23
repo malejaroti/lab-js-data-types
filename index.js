@@ -9,7 +9,7 @@ const s5 = "and";
 
 // Concatenate the string variables into one new string
 let tongueTwister = "";
-tongueTwister = s1 + s2 + s3 + s4 + s5;
+tongueTwister = `${s1} ${s2} ${s3} ${s4} ${s5} ${s3} ${s2} ${s1} ${s4}`
 
 // Print out the concatenated string
 console.log(tongueTwister)
@@ -37,10 +37,10 @@ console.log(sentenceCamelTailed)
 const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
-let tip = billTotal * 0.15
+let tipAmount = billTotal * 0.15
 
 // Print out the tipAmount
-console.log(tip)
+console.log(tipAmount)
 
 
 
@@ -50,6 +50,9 @@ console.log(tip)
 
 // Generate a random integer between 1 and 10 (inclusive)
 let randomNum = Math.floor(Math.random() * 11);
+if(randomNum < 1){
+    randomNum = 0
+}
 
 // Print the generated random number
 console.log(randomNum)
@@ -84,10 +87,10 @@ const expression6 = !(a || b);
 const expression7 = a && a;
 // true
 
-// console.log(expression1)
-// console.log(expression2)
-// console.log(expression3)
-// console.log(expression4)
-// console.log(expression5)
-// console.log(expression6)
-// console.log(expression7)
+console.log(expression1)
+console.log(expression2)
+console.log(expression3)
+console.log(expression4)
+console.log(expression5)
+console.log(expression6)
+console.log(expression7)
